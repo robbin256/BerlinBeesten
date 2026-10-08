@@ -1,4 +1,4 @@
-# Berlins-Best---Berlin-beesten
+# BerlinBeesten
 
 ## Projectstructuur
 
