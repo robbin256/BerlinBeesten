@@ -1,13 +1,17 @@
 # BerlinBeesten
 
-## Projectstructuur
+**Categorie:** 
+**Gekozen locatie:** 
 
-- `teamverslag.md` — gezamenlijk teamverslag
-- `logboek/` — individuele logboeken
-- `onderzoek/` — individueel onderzoek
-- `ontwerpen/` — ontwerpbestanden
-- `website/` — websitebestanden
-  - `index.html`
-  - `css/style.css`
-  - `js/script.js`
-  - `img/`
+**Teamleden:**
+- 
+- 
+- 
+- 
+
+## Inhoud van deze repository
+- `teamverslag.md`: afspraken en besluiten van het team
+- `logboek/`: logboek per teamlid
+- `onderzoek/`: onderzochte locaties en bronnen
+- `ontwerpen/`: ontwerpen van de webpagina
+- `website/`: de webpagina
