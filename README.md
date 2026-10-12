@@ -1,13 +1,14 @@
 # BerlinBeesten
 
-**Categorie:** 
-**Gekozen locatie:** 
+**Categorie: Bezienswaardigheid en geschiedenis** 
+**Gekozen locatie: De Fernsehturm** 
 
 **Teamleden:**
-- 
-- 
-- 
-- 
+- Malek Alrajawy
+- Robbin van Vliet
+- Tobias Schuttevaar
+- Duzyano Ramkhelawan
+- Rachael Schaap
 
 ## Inhoud van deze repository
 - `teamverslag.md`: afspraken en besluiten van het team
