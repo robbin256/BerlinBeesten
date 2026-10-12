@@ -45,9 +45,9 @@
 
 ---
 
-## Dag 1 – Overleg 2: ontwerp en tool
-**Gespreksleider:**  
-**Notulist:**  
+## Dag 2 – Overleg 2: ontwerp en tool
+**Gespreksleider: Malek Alrajawy**  
+**Notulist: Malek Alrajawy**  
 **Aanwezig:**  
 
 **Welk ontwerp kiezen we, en waarom?**
