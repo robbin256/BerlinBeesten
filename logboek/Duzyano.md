@@ -1,21 +1,7 @@
-# Logboek – [je naam]
+# Logboek – [duzyano]
 
-## Les [nummer] – [datum]
+## Les [1] – [8/10/2026]
+ik wss ziek die les  dus ik heb niks 
 
-Wat heb ik vandaag gedaan?
--
+# les [2] - [15/10/2026]
 
-Met wie heb ik samengewerkt, en waaraan?
--
-
-Wat heb ik bijgedragen aan het team?
--
-
-Wat heb ik van een teamlid geleerd of gekregen?
--
-
-Hoe ging de samenwerking? Wat ging goed, wat kan beter?
--
-
-Wat ga ik de volgende les doen?
--
