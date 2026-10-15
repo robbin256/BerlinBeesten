@@ -18,5 +18,6 @@
 
 ## Afbeeldingen (dag 2)
 | Bestand (url) | Bron (link) | Maker | Licentie |
-| --- | --- | --- | --- |
-|  |  |  |  |
+
+| website\img\Restaurant.png | https://www.tripadvisor.nl/Restaurant_Review-g187323-d2060315-Reviews-Restaurant_Sphere-Berlin.html |  | Licentie |
+| website\img\Droneshot.png | https://www.ukposters.co.uk/the-drone-aerial-view-of-the-television-tower-%EF%BC%88fernsehturm%EF%BC%89-and-old-town-of-berlin-germany-f758259442?srsltid=AU7gw4U-5Qep6SIwV1P_OXPlc_VPtDpTjix6p0CCQDPw63sAwLhJDDYZ| Yujie | --- |
