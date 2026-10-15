@@ -6,9 +6,9 @@
 |  |  |  |  |
 
 ## Teamafspraken
-1. 
-2. 
-3. 
+1. Te laat is tracteren.
+2. Niemand moet niks doen, iedereen moet aan de gang zijn.
+3. Iedereen houdt zijn eigen taak, en comunicatie moet er zijn.
 
 ---
 
@@ -42,13 +42,16 @@
 **Welke locaties zijn afgevallen, en waarom?**
 
 **Wie gebruikt welke ontwerptool?**
-
+- Tobias: Figma.
+- Robbin: Stitch.
+- Malek: Claude.
+- Duzyano: ChatGPT.
 ---
 
 ## Dag 2 – Overleg 2: ontwerp en tool
 **Gespreksleider: Malek Alrajawy**  
 **Notulist: Malek Alrajawy**  
-**Aanwezig:**  
+**Aanwezig: Robbin, Tobias en Malek**  
 
 **Welk ontwerp kiezen we, en waarom?**
 
