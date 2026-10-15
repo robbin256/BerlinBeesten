@@ -1,10 +1,5 @@
 # Teamverslag – [Berlin Beesten]
 
-## Team
-| Naam | Git-gebruikersnaam | Ontwerptool | Onderdeel (dag 2) |
-| --- | --- | --- | --- |
-|  |  |  |  |
-
 ## Teamafspraken
 1. Te laat is tracteren.
 2. Niemand moet niks doen, iedereen moet aan de gang zijn.
@@ -26,8 +21,8 @@
 **Notulist: Malek Alrajawy**  
 **Aanwezig: Robbin, Tobias en Malek**  
 
-**Welke locatie kiezen we?: Berlijner Fernseturm**
-
+**Welke locatie kiezen we?**
+- Berlijner Fernseturm.
 **Waarom? (per criterium)**
 - Interessant voor CSD-studenten: De Berliner Fernsehturm is een van de bekendste bezienswaardigheden van Berlijn. Studenten kunnen vanaf de toren de hele stad bekijken en mooie foto's maken. Ook leren ze meer over de geschiedenis van Berlijn en de voormalige DDR.
 
@@ -40,7 +35,8 @@
 - Genoeg informatie en beeldmateriaal: Er is veel informatie beschikbaar over de bouw van de Fernsehturm, de geschiedenis van Oost-Berlijn en het uitzicht over de stad. Ook zijn er veel foto's van de toren, het uitzicht en de omgeving van Alexanderplatz. Daardoor kunnen we gemakkelijk een informatieve webpagina met een slideshow van minimaal zes afbeeldingen maken.
 
 **Welke locaties zijn afgevallen, en waarom?**
- De Berlijnse Muur, Museuminsel, Holocaustmonument, Deutschland Museum en Berlin Underwelten. Omdat we vonden dat De Fernsehturm beter past voor onze thema.
+ - De Berlijnse Muur, Museuminsel, Holocaustmonument, Deutschland Museum en Berlin Underwelten. Omdat we vonden dat De Fernsehturm beter past voor onze thema.
+
 **Wie gebruikt welke ontwerptool?**
 - Tobias: Figma.
 - Robbin: Stitch.
@@ -51,18 +47,18 @@
 ## Dag 2 – Overleg 2: ontwerp en tool
 **Gespreksleider: Malek Alrajawy**  
 **Notulist: Malek Alrajawy**  
-**Aanwezig: Robbin, Tobias en Malek**  
+**Aanwezig: Robbin, Tobias, Malek en Duzyano**  
 
 **Welk ontwerp kiezen we, en waarom?**
-
+- De ontwerp van Tobias, omdat het meer antrekkelijk is.
 **Welke tool kiezen we, en waarom?**
-
+- Figma, omdat het de beste ontwerp maakte.
 ---
 
 ## Dag 2 – Taakverdeling en afbeeldingen
-**Gespreksleider:**  
-**Notulist:**  
-**Aanwezig:**  
+**Gespreksleider: Malek Alrajawy**  
+**Notulist: Malek Alrajawy**  
+**Aanwezig: Robbin, Tobias, Malek en Duzyano**  
 
 **Wie doet welk onderdeel?**
 
