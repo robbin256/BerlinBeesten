@@ -18,5 +18,7 @@
 
 ## Afbeeldingen (dag 2)
 | Bestand (url) | Bron (link) | Maker | Licentie |
-| --- | --- | --- | --- |
-|  |  |  |  |
+
+| website\img\FernsehturmBuiten.png | https://historiek.net/de-fernsehturm-in-berlijn-en-de-wraak-van-de-paus/156619/#google_vignette | Het kruis op de Fernsehturm in Berlijn (CC BY-SA 4.0 – Tobi85 – wiki) | --- |
+
+| website\img\FernsehturmBinnen.png | https://tracksandthecity.de/fernsehturm-berlin-restaurant/ | --- | --- |
