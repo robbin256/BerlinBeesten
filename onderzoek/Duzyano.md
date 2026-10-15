@@ -1,22 +1,11 @@
-# Onderzoek – [je naam]
+# Onderzoek – [Duzyano ]
+ik was ziek op demeerste les 
 
-## Locatie 1: [naam]
-- **Omschrijving (in eigen woorden):**
-- **Waarom interessant voor CSD-studenten:**
-- **Open tussen 2 en 5 november?**
-- **Kosten:**
-- **Afstand vanaf het hotel:**
-- **Bronnen (links):**
 
-## Locatie 2: [naam]
-- **Omschrijving (in eigen woorden):**
-- **Waarom interessant voor CSD-studenten:**
-- **Open tussen 2 en 5 november?**
-- **Kosten:**
-- **Afstand vanaf het hotel:**
-- **Bronnen (links):**
 
 ## Afbeeldingen (dag 2)
-| Bestand (url) | Bron (link) | Maker | Licentie |
-| --- | --- | --- | --- |
-|  |  |  |  |
+https://nl.wikipedia.org/wiki/Bestand:Berliner_Fernsehturm,_Sicht_vom_Neptunbrunnen_-_Berlin_Mitte.jpg maker is wikipedia 
+pad website/img/buitenberlijner.png
+
+
+https://www.berlin.de/en/attractions-and-sights/3560707-3104052-berlin-tv-tower.en.html maker is DPA pad website/img/binnenberlijner
