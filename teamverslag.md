@@ -40,7 +40,7 @@
 - Genoeg informatie en beeldmateriaal: Er is veel informatie beschikbaar over de bouw van de Fernsehturm, de geschiedenis van Oost-Berlijn en het uitzicht over de stad. Ook zijn er veel foto's van de toren, het uitzicht en de omgeving van Alexanderplatz. Daardoor kunnen we gemakkelijk een informatieve webpagina met een slideshow van minimaal zes afbeeldingen maken.
 
 **Welke locaties zijn afgevallen, en waarom?**
-
+ De Berlijnse Muur, Museuminsel, Holocaustmonument, Deutschland Museum en Berlin Underwelten. Omdat we vonden dat De Fernsehturm beter past voor onze thema.
 **Wie gebruikt welke ontwerptool?**
 - Tobias: Figma.
 - Robbin: Stitch.

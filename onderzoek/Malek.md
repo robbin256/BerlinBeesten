@@ -30,6 +30,6 @@
 - **Bronnen (links): https://www.visitberlin.de/en/east-side-gallery https://www.stiftung-berliner-mauer.de/en/east-side-gallery/visit/map-information**
 
 ## Afbeeldingen (dag 2)
-| Bestand (url) | Bron (link) | Maker | Licentie |
-| --- | --- | --- | --- |
-|  |  |  |  |
+Buiten: https://www.citytourcard.com/en/discount-partner/berliner-fernsehturm
+
+Binnen: https://www.visitberlin.de/de/tickets/ticket-ohne-anstehen-aussichtsetage-im-fernsehturm-berlin#/
