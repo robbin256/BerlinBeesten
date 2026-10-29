@@ -1,0 +1,71 @@
+/* ============================================================
+   GLOBAL STYLES — Berlin/368
+   Basis variabelen, resets en gedeelde stijlen
+   ============================================================ */
+
+:root {
+  color: #11110f;
+  background: #d5d2c8;
+  font-family: "Space Grotesk", sans-serif;
+  font-synthesis: none;
+  --acid: #dfff00;
+  --orange: #ff4a18;
+  --ink: #11110f;
+  --paper: #e7e3d8;
+  --concrete: #c7c4ba;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at 20% 30%, rgb(255 255 255 / 0.28) 0 1px, transparent 2px),
+    radial-gradient(circle at 80% 60%, rgb(0 0 0 / 0.13) 0 1px, transparent 2px),
+    #d5d2c8;
+  background-size: 13px 17px, 19px 23px;
+}
+
+button,
+a {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+.site-shell {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: -0.075em;
+  line-height: 0.83;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
