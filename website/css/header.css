@@ -1,0 +1,207 @@
+/* ============================================================
+   HEADER STYLES — Berlin/368
+   ============================================================ */
+
+/* ---- Topbar layout ---- */
+.topbar {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  color: #fff;
+  transition: background 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* Scrolled state – vaste header met achtergrond */
+.topbar.scrolled {
+  position: fixed;
+  background: rgba(17, 17, 15, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* ---- Brand / Logo ---- */
+.brand,
+.footer-brand {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 18px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand span,
+.footer-brand span {
+  color: var(--acid, #dfff00);
+}
+
+/* ---- Desktop navigatie ---- */
+.topbar nav {
+  display: none;
+}
+
+.topbar nav a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.topbar nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--acid, #dfff00);
+  transition: width 0.3s ease;
+}
+
+.topbar nav a:hover::after {
+  width: 100%;
+}
+
+/* ---- Plan bezoek knop ---- */
+.nav-ticket {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 9px 12px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.nav-ticket:hover {
+  background: var(--acid, #dfff00);
+  color: var(--ink, #11110f);
+  border-color: var(--acid, #dfff00);
+}
+
+/* ---- Hamburger menu (mobiel) ---- */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 25;
+}
+
+.hamburger-line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hamburger → kruis animatie */
+.hamburger.active .hamburger-line:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.active .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .hamburger-line:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ---- Nav overlay (mobiel menu achtergrond) ---- */
+.nav-overlay {
+  position: fixed;
+  z-index: 18;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.nav-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ---- Responsive ---- */
+
+/* Mobiel: nav is verborgen menu */
+@media (max-width: 739px) {
+  .topbar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: fixed;
+    z-index: 19;
+    top: 0;
+    right: -280px;
+    width: 280px;
+    height: 100vh;
+    padding: 90px 30px 40px;
+    background: var(--ink, #11110f);
+    transition: right 0.35s ease;
+  }
+
+  .topbar nav.open {
+    right: 0;
+  }
+
+  .topbar nav a {
+    display: block;
+    padding: 18px 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .topbar nav a:last-child {
+    border-bottom: none;
+  }
+
+  .nav-ticket {
+    display: none;
+  }
+}
+
+/* Desktop: nav zichtbaar, hamburger verborgen */
+@media (min-width: 740px) {
+  .topbar {
+    padding: 24px 38px;
+  }
+
+  .topbar nav {
+    display: flex;
+    gap: 30px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-overlay {
+    display: none;
+  }
+}
