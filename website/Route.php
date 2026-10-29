@@ -20,6 +20,19 @@ $escape = static function (string $value): string {
 
 <section class="bb-route" aria-labelledby="bb-route-title">
     <style>
+        body:has(.bb-route) {
+            margin: 0;
+        }
+
+        main:has(.bb-route) {
+            margin: 0;
+            padding: 0;
+        }
+
+        main:has(.bb-route)>h1 {
+            display: none;
+        }
+
         .bb-route {
             --bb-cream: #e9e6db;
             --bb-ink: #0c0c0c;
