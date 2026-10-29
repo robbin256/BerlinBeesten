@@ -1,0 +1,252 @@
+:root {
+    --ink: #1c1c1c;
+    --dark: #1f1f1f;
+    --line: #3a3a3a;
+    --lime: #dfff00;
+    --beige: #d8d3c6;
+    --orange: #ff4a17;
+    --black: #111;
+    --head: "Archivo", "Arial Black", Impact, sans-serif;
+    --body: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+html {
+    scroll-padding-top: env(safe-area-inset-top, 0px)
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+html,
+body {
+    margin: 0;
+    background: #000
+}
+
+body {
+    font-family: var(--body);
+    -webkit-font-smoothing: antialiased
+}
+
+.page {
+    max-width: 430px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--head);
+    font-stretch: 125%;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase
+}
+
+/* Sectie 1: donker */
+.dark {
+    background: var(--dark);
+    color: #fff;
+    padding: 56px 24px 40px;
+    position: relative;
+    overflow: hidden
+}
+
+.sticker {
+    position: absolute;
+    top: 34px;
+    right: -34px;
+    transform: rotate(-6deg);
+    font-family: var(--head);
+    font-stretch: 125%;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 21px;
+    color: var(--lime);
+    text-transform: uppercase;
+    white-space: nowrap
+}
+
+.eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 74px;
+    font-family: var(--head);
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: 10px;
+    letter-spacing: .08em;
+    text-transform: uppercase
+}
+
+.eyebrow::before {
+    content: "";
+    width: 36px;
+    height: 2px;
+    background: var(--lime)
+}
+
+.dark h1 {
+    font-size: clamp(50px, 15.5vw, 66px);
+    line-height: .92;
+    letter-spacing: -.02em;
+    margin-top: 30px
+}
+
+.dark h1 .l {
+    color: var(--lime)
+}
+
+.intro {
+    color: #b9b9b9;
+    font-size: 15px;
+    line-height: 1.75;
+    margin: 30px 0 40px;
+    font-weight: 500
+}
+
+.card {
+    border: 1px solid var(--line);
+    background: linear-gradient(135deg, #262626 0%, #1f1f1f 60%);
+    padding: 24px 24px 26px;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 14px
+}
+
+.card .n {
+    font-family: var(--head);
+    font-stretch: 125%;
+    font-weight: 900;
+    font-size: 11px
+}
+
+.card h2 {
+    font-size: 22px;
+    letter-spacing: -.01em;
+    margin-top: 60px
+}
+
+.card p {
+    margin: 12px 0 0;
+    color: #a5a5a5;
+    font-size: 13.5px;
+    line-height: 1.6
+}
+
+.card.hl {
+    background: var(--lime);
+    border-color: var(--lime);
+    color: var(--black);
+    transform: rotate(-1.2deg);
+    margin: 18px -6px 22px
+}
+
+.card.hl p {
+    color: #3b4300
+}
+
+/* Sectie 2: beige */
+.light {
+    background: var(--beige);
+    background-image: radial-gradient(rgba(0, 0, 0, .14) 1px, transparent 1.2px);
+    background-size: 22px 22px;
+    color: var(--black);
+    padding: 44px 24px 56px
+}
+
+.light h2 {
+    font-size: clamp(40px, 12.5vw, 54px);
+    line-height: .92;
+    letter-spacing: -.025em
+}
+
+.light h2 i {
+    display: inline-block;
+    width: .17em;
+    height: .17em;
+    background: var(--orange);
+    margin-left: .04em
+}
+
+.rows {
+    margin-top: 46px;
+    border-top: 3px solid var(--black)
+}
+
+.row {
+    padding: 28px 0 22px;
+    border-bottom: 1.5px solid #8d8a80
+}
+
+.row small {
+    display: block;
+    font-family: var(--head);
+    font-stretch: 125%;
+    font-weight: 800;
+    font-size: 9.5px;
+    letter-spacing: .1em;
+    text-transform: uppercase
+}
+
+.row b {
+    display: block;
+    font-family: var(--head);
+    font-stretch: 125%;
+    font-weight: 900;
+    font-size: 23px;
+    letter-spacing: -.01em;
+    text-transform: uppercase;
+    margin: 14px 0 10px
+}
+
+.row span {
+    font-size: 11.5px;
+    color: #6c6a62;
+    font-weight: 500
+}
+
+.tip {
+    background: var(--orange);
+    color: #fff;
+    padding: 22px 20px;
+    margin: 44px 8px 0 0;
+    box-shadow: 8px 8px 0 var(--black);
+    display: flex;
+    gap: 30px;
+    transform: rotate(-.8deg)
+}
+
+.tip strong {
+    font-family: var(--head);
+    font-stretch: 125%;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase
+}
+
+.tip p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 500
+}
+
+.page {
+    min-height: 100vh
+}
+
+.dark,
+.light {
+    min-height: 100vh
+}
