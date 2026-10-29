@@ -85,7 +85,6 @@ $escape = static function (string $value): string {
             display: block;
             color: transparent;
             -webkit-text-stroke: 1.5px var(--bb-ink);
-            text-stroke: 1.5px var(--bb-ink);
         }
 
         .bb-route__map {
