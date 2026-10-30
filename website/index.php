@@ -15,7 +15,7 @@
       <?php include __DIR__ . '/informatie.php'; ?>
       <?php include __DIR__ . '/omschrijving.php'; ?>
       <?php include __DIR__ . '/Route.php'; ?>
-       <?php include __DIR__ . '/tickets.php'; ?>
+      <?php include __DIR__ . '/tickets.php'; ?>
     </main>
     <?php include __DIR__ . '/footer.php'; ?>
   </body>
